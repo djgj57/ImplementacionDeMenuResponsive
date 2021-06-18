@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i>Menú</span>
+        <nav class="main-nav">
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="#" class="menu__link">Inicio</a></li>
+
+                <li class="menu__item container-submenu">
+                    <a href="#" class="menu__link submenu-btn noticias-todas">Noticias <i class="fas fa-chevron-down"></i></a>
+
+                    <ul class="submenu">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link nacionales">Nacionales
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link internacionales">Internacionales
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section>
+        <h1>Noticias del día</h1>
+        <div class="contenedor-noticias">
+        </div>
+    </section>
+</main>
+    <footer>
+        <section class="contacto">
+            <img class="logo" src="./img/logo.svg" alt="imagen noticia">
+
+            <div class="contacto1">
+                <h4>Contacto:</h4>
+                <ul>
+                    <li><a href="tel:541111111111">Contacto: 54 1111111111</a></li>
+                    <li><a href="mailto:mail@gmail.com">mail@gmail</a></li>
+                </ul>
+
+            </div>
+
+            <div class="vinculos">
+                <h4>Links:</h4>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Noticias</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="derechos">
+            <span>Copyright © 2021</span>
+        </section>
+
+
+    </footer>
+
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
